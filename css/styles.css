@@ -1,0 +1,166 @@
+#title  {
+  background-color: #ff0b55;
+  height: 700px;
+}
+div.row {
+  padding-left: 10px !important;
+}
+.images{
+  padding-top: 20px !important;
+  transform: rotate(15deg);
+  height:auto;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 4rem !important;
+  color: #fff;
+}
+.container-fluid {
+  padding: 2% 5% !important;
+}
+body {
+  font-family: Montserrat;
+}
+nav {
+  padding-bottom: 5%  !important;
+  position: fixed !important;
+  top:0;
+  z-index: 1;
+}
+.navbarNav {
+  position: fixed;
+  right: 100px;
+}
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+#features {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10%;
+}
+h3 {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+}
+h2 {
+  font-family: Montserrat;
+  line-height: 1.5 !important;
+  font-size: 3rem !important ;
+  font-weight: bold !important;
+
+}
+.fas {
+  font-size: 4em;
+  color: red;
+}
+.home-icon {
+  font-size: 1em;
+  color: black;
+}
+.fas:hover {
+  color: green;
+}
+
+#testimonials {
+  padding: 5% 15%;
+  background-color: #fe4949;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.testimonial-images {
+  border-radius: 100%;
+  margin: 20px 10px;
+  width: 200px;
+}
+#press {
+  background-color: #ff4949;
+  text-align: center;
+  padding: 5% 10%;
+}
+.press-logo {
+  margin: 0 2%;
+  width: 20%
+}
+#pricing {
+  text-align: center;
+  padding: 10% 15%;
+}
+.row {
+  margin-top: 5% !important;
+}
+.background {
+  background-color: #f6f6f6;
+  padding: 20px;
+
+}
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+    height: auto;
+  }
+
+  .images{
+    transform: rotate(0);
+    margin: 0;
+    height: auto;
+  }
+  #footer {
+    padding-bottom: 10% !important;
+  }
+
+}
+@media (max-width: 995px) and (min-width: 570px) {
+  .images {
+  margin-left: 90px;
+  padding: 10px;
+
+  }
+}
+#cta {
+      background-color: #ff4949; 
+      height: 400px;
+      text-align: center;
+      font-size: 4rem;
+      font-style: italic;
+      font-weight: bold;
+      color: #fff;
+      padding-top: 120px !important;
+}
+.footer-btn:hover {
+  background-color: darkcyan !important;
+}
+#footer {
+  background-color: #df0e62;
+  height: 150px;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+#footer i {
+  margin: 1%;
+}
+.completeBodySection {
+  position: relative !important;
+
+}
+@media (max-width: 990px) {
+  nav {
+    position: static !important;
+  }
+  .navbarNav {
+    position: static;
+    right: auto;
+  }
+  .title {
+      padding-top: 40px;
+  }
+
+}
